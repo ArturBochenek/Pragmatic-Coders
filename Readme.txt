@@ -1,9 +1,12 @@
-Uruchamianie
-PowerShell:
-java -jar target\checkout-api-1.0.0.jar
+Build:
+cd ...\Pragmatic-Coders
+mvn clean package
+
 Test
 mvn test
 
+Uruchamianie
+java -jar target\checkout-api-1.0.0.jar
 
 Testowanie w Postman:
 
